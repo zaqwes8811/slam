@@ -1,5 +1,43 @@
 # https://github.com/MRPT/mrpt
 
-# gcc7 !
-sudo apt install build-essential pkg-config cmake libwxgtk3.0-dev libwxgtk3.0-gtk3-dev \
-libopencv-dev libeigen3-dev libgtest-dev
+# Try install ub18
+# gcc7 ! in build essential
+sudo apt-get install pkg-config cmake 
+sudo apt-get install libopencv-dev libeigen3-dev libgtest-dev
+sudo apt-get install libwxgtk3.0-dev libwxgtk3.0-gtk3-dev 
+sudo apt install cmake-gui
+sudo apt-get install libusb-1.0-0-dev
+sudo apt-get install libftdi-dev
+sudo apt-get install libjsoncpp-dev
+
+Python:
+sudo apt-get install libpython-dev
+sudo apt install python-numpy python-scipy
+sudo apt install python-pip
+# https://askubuntu.com/questions/944035/installing-libboost-python-dev-for-python3-without-installing-python2-7
+sudo apt-get install libboost-python-dev
+
+sudo apt-get install libpython3-dev
+sudo apt install python3-numpy python3-scipy
+sudo apt install python3-pip
+
+Speed up?
+sudo apt-get install libblas-dev liblapack-dev gfortran
+sudo apt-get install libblas-dev
+
+
+### Big 
+PCL
+sudo add-apt-repository ppa:v-launchpad-jochen-sprickerhof-de/pcl
+sudo apt-get update
+#sudo apt-get install libpcl-all
+sudo apt install libpcl-dev
+
+OpenGL
+sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
+
+VTK
+sudo apt-get install libvtk5-dev python-vtk
+
+# Result
+cmake -DBUILD_MATLAB=OFF -DBUILD_TESTING=OFF ..
