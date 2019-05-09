@@ -1,0 +1,5 @@
+# https://github.com/MRPT/mrpt
+
+# gcc7 !
+sudo apt install build-essential pkg-config cmake libwxgtk3.0-dev libwxgtk3.0-gtk3-dev \
+libopencv-dev libeigen3-dev libgtest-dev
