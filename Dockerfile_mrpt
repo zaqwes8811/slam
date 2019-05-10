@@ -26,6 +26,8 @@ sudo apt-get install libblas-dev liblapack-dev gfortran
 sudo apt-get install libblas-dev
 
 
+sudo apt-get install libassimp-dev
+
 ### Big 
 PCL
 sudo add-apt-repository ppa:v-launchpad-jochen-sprickerhof-de/pcl
@@ -41,3 +43,11 @@ sudo apt-get install libvtk5-dev python-vtk
 
 # Result
 cmake -DBUILD_MATLAB=OFF -DBUILD_TESTING=OFF ..
+
+cmake -DBUILD_MATLAB=OFF -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/opt/mrpt-1.5.6  ..
+
+
+cmake -DBUILD_MATLAB=OFF -DBUILD_TESTING=OFF \
+	-G"Eclipse CDT4 - Unix Makefiles" -D_ECLIPSE_VERSION=4.8 \
+	..
+
