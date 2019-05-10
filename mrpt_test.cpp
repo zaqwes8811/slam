@@ -203,11 +203,82 @@ void TestICP(InputData &data) {
 #endif
 }
 
+template<typename T, typename U>
+U clamp(U x, T mnx, T mxx) {
+    if (x > mxx) {
+        x = mxx;
+    }
+    if (x < mnx) {
+        x = mnx;
+    }
+    return x;
+}
+
 int main(int argc, char **argv) {
 
     // Load own map
-    Mat raw_map = imread("./laser_hm.png", 0);
+    Mat raw_map = imread("../laser_hm.png", 0);
+    Mat z = Mat::zeros(raw_map.size(), CV_8U);
+
+    const float cell_size_m = 0.01;
+    const float dy = 3;
+    const float big_cell_size_m = 3;
+    cout << "dX:" << raw_map.cols * cell_size_m << endl;
+
     vector<Point2i> hits;
+
+    vector<CSimplePointsMap> tails;
+    float dist_from_zero = 0;
+    CSimplePointsMap current_map;
+    for (int col = 0; col < raw_map.cols; ++col) {
+        dist_from_zero += cell_size_m;
+        for (int row = 0; row < raw_map.rows; ++row) {
+            uint8_t pxl = raw_map.at<uint8_t>(row, col);
+            if (pxl < 128) {
+                int x = col;
+                int y = row;
+                y = clamp(y + randNumber(-dy, +dy), 0, raw_map.cols);
+
+                z.at<uint8_t>(y, x) = 255;
+
+                current_map.insertPointFast(x * cell_size_m, y * cell_size_m);
+                hits.push_back(Point2i{x, y});
+                break;
+            }
+        }
+
+        if (dist_from_zero >= big_cell_size_m) {
+            dist_from_zero = 0;
+            tails.push_back(current_map);
+            current_map.clear();
+        }
+    }
+    imwrite("../whole_map.png", z);
+
+    if (!skip_window) {
+        gui::CDisplayWindowPlots win("ICP results");
+
+        // Reference map:
+        int ptr = 0;
+        for (auto &tail : tails) {
+            vector<float> map1_xs, map1_ys, map1_zs;
+            tail.getAllPoints(map1_xs, map1_ys, map1_zs);
+            if (ptr % 2 == 0) {
+                win.plot(map1_xs, map1_ys, "b.3", "map" + to_string(ptr));
+            } else {
+                win.plot(map1_xs, map1_ys, "r.3", "map" + to_string(ptr));
+            }
+            ++ptr;
+        }
+
+        win.axis(-1, 10, -6, 6);
+        win.axis_equal();
+
+        cout << "Close the window to exit" << endl;
+        win.waitForKey();
+    }
+
+    return 1;
 
     try {
         skip_window = (argc > 2);
@@ -234,7 +305,22 @@ int main(int argc, char **argv) {
             data.m2.insertPointFast(rv + shift, (i) / 10.0 + 2);
         }
 
-        TestICP(data);
+//        TestICP(data);
+
+        if (!skip_window) {
+            gui::CDisplayWindowPlots win("ICP results");
+
+            // Reference map:
+            vector<float> map1_xs, map1_ys, map1_zs;
+            data.m1.getAllPoints(map1_xs, map1_ys, map1_zs);
+            win.plot(map1_xs, map1_ys, "b.3", "map1");
+
+            win.axis(-1, 10, -6, 6);
+            win.axis_equal();
+
+            cout << "Close the window to exit" << endl;
+            win.waitForKey();
+        }
 
         return 0;
     }

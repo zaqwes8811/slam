@@ -26,7 +26,7 @@ FIND_PACKAGE( OpenCV REQUIRED core highgui imgcodecs)
 
 # Declare the target (an executable)
 ADD_EXECUTABLE(mrpt_example1
-test.cpp
+mrpt_test.cpp
 )
 TARGET_LINK_LIBRARIES(mrpt_example1 ${MRPT_LIBS} ${OpenCV_LIBS})
  
