@@ -22,12 +22,13 @@ endif ()
 # --------------------------------------------------------------------------
 FIND_PACKAGE( MRPT REQUIRED slam gui) 
 # WARNING: Add all the MRPT libs used by your program: "gui", "obs", "slam",etc.
+FIND_PACKAGE( OpenCV REQUIRED core highgui imgcodecs)
 
 # Declare the target (an executable)
 ADD_EXECUTABLE(mrpt_example1
 test.cpp
 )
-TARGET_LINK_LIBRARIES(mrpt_example1 ${MRPT_LIBS})
+TARGET_LINK_LIBRARIES(mrpt_example1 ${MRPT_LIBS} ${OpenCV_LIBS})
  
 # Set optimized building:
 IF(CMAKE_COMPILER_IS_GNUCXX AND NOT CMAKE_BUILD_TYPE MATCHES "Debug")
