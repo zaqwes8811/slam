@@ -28,6 +28,8 @@
 #include <mrpt/poses/CPosePDFGaussian.h>
 #include <mrpt/slam/CICP.h>
 
+#include <opencv2/highgui/highgui.hpp>
+
 #include <fstream>
 #include <iostream>
 
@@ -38,6 +40,7 @@ using namespace mrpt::obs;
 using namespace mrpt::math;
 using namespace mrpt::poses;
 using namespace std;
+using namespace cv;
 
 bool skip_window = false;
 int ICP_method = (int)icpClassic;
@@ -45,6 +48,8 @@ int ICP_method = (int)icpClassic;
 // ------------------------------------------------------
 //				TestICP
 // ------------------------------------------------------
+
+// ./libs/obs/src/stock_observations.cpp
 void TestICP()
 {
 	CSimplePointsMap m1, m2;
@@ -62,6 +67,7 @@ void TestICP()
 	// Build the points maps from the scans:
 	m1.insertObservation(&scan1);
 	m2.insertObservation(&scan2);
+
 
 #if MRPT_HAS_PCL
 	cout << "Saving map1.pcd and map2.pcd in PCL format...\n";
@@ -187,6 +193,12 @@ void TestICP()
 
 int main(int argc, char** argv)
 {
+
+    // Load own map
+    Mat raw_map = imread("./laser_hm.png", 0);
+    vector<Point2i> hits;
+
+
 	try
 	{
 		skip_window = (argc > 2);
@@ -195,7 +207,7 @@ int main(int argc, char** argv)
 			ICP_method = atoi(argv[1]);
 		}
 
-		TestICP();
+//		TestICP();
 
 		return 0;
 	}
