@@ -51,3 +51,5 @@ cmake -DBUILD_MATLAB=OFF -DBUILD_TESTING=OFF \
 	-G"Eclipse CDT4 - Unix Makefiles" -D_ECLIPSE_VERSION=4.8 \
 	..
 
+Claus Brenner
+https://www.youtube.com/watch?v=B2qzYCeT9oQ - slam with lendmarks like poles
