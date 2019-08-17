@@ -1,0 +1,23 @@
+Matlab Control System Toolbox
+Matlab Robust Control Toolbox
+QFT stuff
+
+Противоречия:
+
+- modeling nonlinear elems in system 
+в python-control это проблема, тк не ясно как описать и 
+подключить блок с насыщением
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.504.1251&rep=rep1&type=pdf
+
+- хотелось бы видеть блоки, но это scilab
+- хотелось бы не пользоваться кодом scilab
+- matlab похоже лишен этих противоречний или labview
+
+Похоже переход в state-space область помогает моделировать
+и задерки и нелинейности
+
+My scientific software stack:
+python27 + scipy + numpy + matplotlib + sympy + python-control(?)
+
+Troubles:
+- как и аналог и цифру?
