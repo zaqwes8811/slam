@@ -5,6 +5,8 @@
 - "Visuzel navigation of fluing robots"
 - Self driving on Coursera specialisztion
 - Udacity - ?
+- Control - book for JPL
+- Another pink book
 
 # IMU
 mma845x
