@@ -9,6 +9,7 @@ https://www.coursera.org/specializations/self-driving-cars
 - Control - book for JPL
 - Another pink book
 - "How to Win a Data Science Competition: Learn from Top Kagglers"
+- https://www.coursera.org/specializations/deep-learning
 
 # IMU
 mma845x
