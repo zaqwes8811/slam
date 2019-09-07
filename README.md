@@ -10,6 +10,7 @@ https://www.coursera.org/specializations/self-driving-cars
 - Another pink book
 - "How to Win a Data Science Competition: Learn from Top Kagglers"
 - https://www.coursera.org/specializations/deep-learning
+- hd maps - https://www.nvidia.com/en-us/self-driving-cars/hd-mapping/
 
 # IMU
 mma845x
