@@ -8,6 +8,7 @@ https://www.coursera.org/specializations/self-driving-cars
 - Udacity - ?
 - Control - book for JPL
 - Another pink book
+- "How to Win a Data Science Competition: Learn from Top Kagglers"
 
 # IMU
 mma845x
