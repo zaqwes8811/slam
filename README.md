@@ -11,6 +11,7 @@ https://www.coursera.org/specializations/self-driving-cars
 - "How to Win a Data Science Competition: Learn from Top Kagglers"
 - https://www.coursera.org/specializations/deep-learning
 - hd maps - https://www.nvidia.com/en-us/self-driving-cars/hd-mapping/
+- https://www.youtube.com/watch?v=MzbYrOeLXAA ("Towards Autonomous MAV Exploration in Cluttered Indoor and Outdoor Environments (Dr. Korbinian Schmid, DLR)")
 
 # IMU
 mma845x
