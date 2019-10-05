@@ -27,6 +27,7 @@ J. Vila-Valls
 , Q. Wei2
 , P. Closas1
 , and C. Fernandez-Pr ´ ades1"
+- https://habr.com/ru/post/351400/
 
 # IMU
 mma845x
