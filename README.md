@@ -21,7 +21,7 @@ https://www.coursera.org/specializations/self-driving-cars
 Jo-Anne Ting1
 , Evangelos Theodorou1
 , and Stefan Schaal1,2
-1University of Southern California, Los Angeles, CA, 90089"
+1University of Southern California, Los Angeles, CA, 90089" (!!!)
 - https://github.com/milsto/robust-kalman
 - "ROBUST GAUSSIAN SUM FILTERING WITH UNKNOWN NOISE STATISTICS:
 APPLICATION TO TARGET TRACKING
