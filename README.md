@@ -1,3 +1,6 @@
+# General
+- Data processing alg. http://www.unofficialgoogledatascience.com/2016/10/practical-advice-for-analysis-of-large.html
+
 # Self driving
 - Cyrill Stachniss - slam/photografometry
 - Claus Brenner - robot navigation
