@@ -28,6 +28,10 @@ J. Vila-Valls
 , P. Closas1
 , and C. Fernandez-Pr ´ ades1"
 - https://habr.com/ru/post/351400/
+- GMM
+- "Robust Cubature Kalman Filter for Dynamic State
+Estimation of Synchronous Machines under
+Unknown Measurement Noise Statistics"
 
 # IMU
 mma845x
