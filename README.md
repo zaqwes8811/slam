@@ -32,6 +32,7 @@ J. Vila-Valls
 - "Robust Cubature Kalman Filter for Dynamic State
 Estimation of Synchronous Machines under
 Unknown Measurement Noise Statistics"
+- http://haranarasaratnam.com/docs/phd_thesis.pdf -  Cubature Rules
 
 # IMU
 mma845x
