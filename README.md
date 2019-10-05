@@ -36,6 +36,8 @@ J. Vila-Valls
 Estimation of Synchronous Machines under
 Unknown Measurement Noise Statistics"
 - http://haranarasaratnam.com/docs/phd_thesis.pdf -  Cubature Rules
+- Iterative - "Expectation-Maximization (EM)
+framework"
 
 # Robust estimators
 - M,E-estimators https://ethz.ch/content/dam/ethz/special-interest/math/statistics/sfs/Education/Advanced%20Studies%20in%20Applied%20Statistics/course-material/robust-nonlinear/robstat16E.pdf - "Robust Fitting of Parametric Models
