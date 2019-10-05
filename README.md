@@ -13,7 +13,7 @@ https://www.coursera.org/specializations/self-driving-cars
 - hd maps - https://www.nvidia.com/en-us/self-driving-cars/hd-mapping/
 - https://www.youtube.com/watch?v=MzbYrOeLXAA ("Towards Autonomous MAV Exploration in Cluttered Indoor and Outdoor Environments (Dr. Korbinian Schmid, DLR)")
 
-# Kalman/Robust
+# Kalman/Robust/Bayesian estimation
 - "A Kalman Filter for Robust Outlier Detection
 Jo-Anne Ting1
 , Evangelos Theodorou1
