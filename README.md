@@ -38,7 +38,9 @@ Unknown Measurement Noise Statistics"
 - http://haranarasaratnam.com/docs/phd_thesis.pdf -  Cubature Rules
 
 # Robust estimators
-- M,E-estimators https://ethz.ch/content/dam/ethz/special-interest/math/statistics/sfs/Education/Advanced%20Studies%20in%20Applied%20Statistics/course-material/robust-nonlinear/robstat16E.pdf
+- M,E-estimators https://ethz.ch/content/dam/ethz/special-interest/math/statistics/sfs/Education/Advanced%20Studies%20in%20Applied%20Statistics/course-material/robust-nonlinear/robstat16E.pdf - "Robust Fitting of Parametric Models
+Based on M-Estimation
+Andreas Ruckstuhl "
 - some code https://github.com/feedbackward/rtm_code
 
 # IMU
