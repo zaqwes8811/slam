@@ -53,6 +53,9 @@ Asymmetrical Gating with Application on
 Maneuvering Target Tracking
 Farzad Hashemzadeh" http://downloads.hindawi.com/journals/acisc/2012/670485.pdf
 
+# Smoothing
+- https://users.aalto.fi/~ssarkka/course_k2011/pdf/handout7.pdf
+
 # IMU
 mma845x
 
