@@ -48,6 +48,10 @@ Andreas Ruckstuhl "
 # Multitarget tracking
 - http://dsp-book.narod.ru/HMDF/2379ch10.pdf
 - Participle filter, prunning, gating
+- "Research Article
+Asymmetrical Gating with Application on
+Maneuvering Target Tracking
+Farzad Hashemzadeh" http://downloads.hindawi.com/journals/acisc/2012/670485.pdf
 
 # IMU
 mma845x
