@@ -45,6 +45,10 @@ Based on M-Estimation
 Andreas Ruckstuhl "
 - some code https://github.com/feedbackward/rtm_code
 
+# Multitarget tracking
+- http://dsp-book.narod.ru/HMDF/2379ch10.pdf
+- Participle filter, prunning, gating
+
 # IMU
 mma845x
 
