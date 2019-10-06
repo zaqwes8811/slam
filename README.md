@@ -1,7 +1,7 @@
-# General
+## General
 - Data processing alg. http://www.unofficialgoogledatascience.com/2016/10/practical-advice-for-analysis-of-large.html
 
-# Self driving
+## Self driving
 - Cyrill Stachniss - slam/photografometry
 - Claus Brenner - robot navigation
 - https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python
@@ -16,8 +16,8 @@ https://www.coursera.org/specializations/self-driving-cars
 - hd maps - https://www.nvidia.com/en-us/self-driving-cars/hd-mapping/
 - https://www.youtube.com/watch?v=MzbYrOeLXAA ("Towards Autonomous MAV Exploration in Cluttered Indoor and Outdoor Environments (Dr. Korbinian Schmid, DLR)")
 
-# Subtasks
-## Kalman/Robust/Bayesian estimation
+## Subtasks
+### Kalman/Robust/Bayesian estimation
 - "A Kalman Filter for Robust Outlier Detection
 Jo-Anne Ting1
 , Evangelos Theodorou1
@@ -40,13 +40,13 @@ Unknown Measurement Noise Statistics"
 - Iterative - "Expectation-Maximization (EM)
 framework"
 
-## Robust estimators
+### Robust estimators
 - M,E-estimators https://ethz.ch/content/dam/ethz/special-interest/math/statistics/sfs/Education/Advanced%20Studies%20in%20Applied%20Statistics/course-material/robust-nonlinear/robstat16E.pdf - "Robust Fitting of Parametric Models
 Based on M-Estimation
 Andreas Ruckstuhl "
 - some code https://github.com/feedbackward/rtm_code
 
-## Multitarget tracking
+### Multitarget tracking
 - http://dsp-book.narod.ru/HMDF/2379ch10.pdf
 - Participle filter, prunning, gating
 - "Research Article
@@ -54,11 +54,11 @@ Asymmetrical Gating with Application on
 Maneuvering Target Tracking
 Farzad Hashemzadeh" http://downloads.hindawi.com/journals/acisc/2012/670485.pdf
 
-## Smoothing
+### Smoothing
 - https://users.aalto.fi/~ssarkka/course_k2011/pdf/handout7.pdf
 - RST https://jwmi.github.io/ASM/6-KalmanFilter.pdf
 
-# HW
-## IMU
+## HW
+### IMU
 mma845x
 
