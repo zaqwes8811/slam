@@ -54,6 +54,11 @@ Asymmetrical Gating with Application on
 Maneuvering Target Tracking
 Farzad Hashemzadeh" http://downloads.hindawi.com/journals/acisc/2012/670485.pdf
 
+- "ChalmersX: ChM015x
+Sensor Fusion and Non-linear Filtering for Automotive Systems"
+- "ChalmersX: ChM013x
+Multi-Object Tracking for Automotive Systems"
+
 ### Smoothing
 - https://users.aalto.fi/~ssarkka/course_k2011/pdf/handout7.pdf
 - RST https://jwmi.github.io/ASM/6-KalmanFilter.pdf
