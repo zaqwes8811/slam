@@ -75,6 +75,8 @@ A Multi-Stage Price Forecasting Model for Day-Ahead Electricity Markets"
 - https://machinelearningmastery.com/multi-step-time-series-forecasting/
 - fpp2
 - https://users.aalto.fi/~ssarkka/pub/cats-final.pdf - выжать из residual
+- "Real-time road traffic state prediction based on
+ARIMA and Kalman filter*"
 
 Thought
 - для предсказания нужны и short-therm данные
