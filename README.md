@@ -63,6 +63,12 @@ Multi-Object Tracking for Automotive Systems"
 - https://users.aalto.fi/~ssarkka/course_k2011/pdf/handout7.pdf
 - RST https://jwmi.github.io/ASM/6-KalmanFilter.pdf
 
+
+### Stacking models
+- "Multi Stage based Time Series Analysis of User Activity
+on Touch Sensitive Surfaces in Highly Noise Susceptible
+Environments"
+
 ## HW
 ### IMU
 mma845x
