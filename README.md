@@ -68,6 +68,8 @@ Multi-Object Tracking for Automotive Systems"
 - "Multi Stage based Time Series Analysis of User Activity
 on Touch Sensitive Surfaces in Highly Noise Susceptible
 Environments" - сомнительное что-то но идея возможно хороша
+- "Article
+A Multi-Stage Price Forecasting Model for Day-Ahead Electricity Markets"
 
 ### Forecasting
 - https://machinelearningmastery.com/multi-step-time-series-forecasting/
