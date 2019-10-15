@@ -67,7 +67,11 @@ Multi-Object Tracking for Automotive Systems"
 ### Stacking models
 - "Multi Stage based Time Series Analysis of User Activity
 on Touch Sensitive Surfaces in Highly Noise Susceptible
-Environments"
+Environments" - сомнительное что-то но идея возможно хороша
+
+### Forecasting
+- https://machinelearningmastery.com/multi-step-time-series-forecasting/
+- fpp2
 
 ## HW
 ### IMU
