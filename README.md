@@ -78,6 +78,7 @@ A Multi-Stage Price Forecasting Model for Day-Ahead Electricity Markets"
 
 Thought
 - для предсказания нужны и short-therm данные
+- https://towardsdatascience.com/time-series-forecasting-with-splunk-part-i-intro-kalman-filter-46e4bff1abff Kalman for smoothing not for forecasting
 
 ## HW
 ### IMU
