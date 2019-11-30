@@ -54,9 +54,33 @@ Asymmetrical Gating with Application on
 Maneuvering Target Tracking
 Farzad Hashemzadeh" http://downloads.hindawi.com/journals/acisc/2012/670485.pdf
 
+- "ChalmersX: ChM015x
+Sensor Fusion and Non-linear Filtering for Automotive Systems"
+- "ChalmersX: ChM013x
+Multi-Object Tracking for Automotive Systems"
+
 ### Smoothing
 - https://users.aalto.fi/~ssarkka/course_k2011/pdf/handout7.pdf
 - RST https://jwmi.github.io/ASM/6-KalmanFilter.pdf
+
+
+### Stacking models
+- "Multi Stage based Time Series Analysis of User Activity
+on Touch Sensitive Surfaces in Highly Noise Susceptible
+Environments" - сомнительное что-то но идея возможно хороша
+- "Article
+A Multi-Stage Price Forecasting Model for Day-Ahead Electricity Markets"
+
+### Forecasting
+- https://machinelearningmastery.com/multi-step-time-series-forecasting/
+- fpp2
+- https://users.aalto.fi/~ssarkka/pub/cats-final.pdf - выжать из residual
+- "Real-time road traffic state prediction based on
+ARIMA and Kalman filter*"
+
+Thought
+- для предсказания нужны и short-therm данные
+- https://towardsdatascience.com/time-series-forecasting-with-splunk-part-i-intro-kalman-filter-46e4bff1abff Kalman for smoothing not for forecasting
 
 ## HW
 ### IMU
