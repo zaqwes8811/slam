@@ -28,12 +28,21 @@ https://github.com/pytorch/examples/tree/master/time_sequence_prediction
 # anoter
 https://towardsdatascience.com/lstm-for-time-series-prediction-de8aeb26f2ca
 
+# Raw
+Recurrent Neural Network - The Math of Intelligence (Week 5) - Сараж
+
 Question LST multiple time series
 https://datascience.stackexchange.com/questions/23615/rnn-using-multiple-time-series
 (!!!) https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/
 
 Multiple features:
+Multiple Input RNN with Keras
 https://datascience.stackexchange.com/questions/17024/rnns-with-multiple-features
+https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/
+Time Series Forecasting Using Recurrent Neural Network and Vector Autoregressive Model: When and How
+
+https://stackoverflow.com/questions/50742559/keras-lstm-a-time-series-multi-step-multi-features-forecasting-poor-results
+Illustrated Guide to LSTM's and GRU's: A step by step explanation
 
 Text:
 ...
